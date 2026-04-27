@@ -2,8 +2,6 @@
 
 ## Overview
 
-## Overview
-
 This project simulates a real-world security analysis scenario by examining SSH brute-force attack data. The goal is to identify malicious activity, detect high-risk attackers, and uncover patterns in how brute-force attacks are executed.
 
 ## Problem
@@ -91,7 +89,7 @@ python src/analyze_logs.py
 
 ## Future Improvements
 
-* Add time-based attack analysis
+* Add attacker IP risk scoring
 * Implement IP risk scoring
 * Integrate with a dashboard (Tableau / Power BI)
 * Analyze real system logs (auth.log)
